@@ -1,12 +1,20 @@
-# Investa Analyzr 📈
+# Investa Analytics Engine 📊 — AI-powered Fintech Analytics System
 
 ## AI-Powered Financial Analysis Platform
 
-Investa Analyzr is a financial analysis tool that harnesses the power of AI to deliver comprehensive, institutional-grade stock reports. Tailored for professional investors, financial analysts, and investment banks, it provides deep insights and data-driven recommendations.
+Investa Analytics Engine is a backend-driven financial analysis platform that leverages AI models for institutional-grade stock reports, financial scoring, portfolio monitoring, and real-time analytics — designed for seamless integration into payment, credit, or fraud detection ecosystems.
+
+## 🏗️ Backend Architecture Highlights
+
+- **Microservice-ready backend**: Modular design for scaling financial scoring engines
+- **Secure API endpoints**: Enabling secure data ingestion from external payment or credit systems
+- **Real-time ML scoring**: On-the-fly generation of analytics reports & financial scores
+- **Designed for integration**: Can plug into KYC, credit scoring, or payment risk pipelines
+
 
 [Investa.webm](https://github.com/user-attachments/assets/0f32976d-8911-4bbc-88bd-cbc8ecafde6c)
 
-*Disclaimer : Investa Analyzr is a tool for informational purposes only. It does not provide investment advice. Always conduct thorough research and consult with a qualified financial advisor before making investment decisions.*
+*Disclaimer : Investa Analytics Engine is built for backend financial data processing and analysis. It is for educational/demo purposes and not intended for direct investment advice.*
 
 ## 🔍 Financial Analysis Capabilities
 
@@ -41,13 +49,15 @@ Investa Analyzr excels in providing in-depth financial analysis:
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Python, Streamlit
+- **Backend**: Python (Flask APIs), Streamlit UI
 - **AI/ML**: Groq API (LLaMA 3.1 model)
 - **Data Sources**: Yahoo Finance, DuckDuckGo News API
 - **Visualization**: Plotly
 - **PDF Generation**: ReportLab
 - **Database**: SQLite
 - **Authentication**: bcrypt
+- **Backend-Ready Architecture**: Suitable for integration into financial services or transaction monitoring systems
+
 
 ## 📊 Sample Analysis Output
 
